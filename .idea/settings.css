@@ -1,0 +1,154 @@
+html {
+	margin: 16px;
+}
+
+body {
+	background-color: #1F2833;
+	font-family: Verdana, Arial;
+	font-size: 12px;
+	color: #C5C6C7;
+}
+
+a:link {
+	color:#62B5C2;
+	text-decoration:none;
+	font-weight:bold;
+	margin-top: 7px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: bolder;
+}
+a:visited {
+	text-decoration:none;
+	color: #62B5C2;
+	font-weight:bold;
+	margin-top: 7px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: bolder;
+}
+a:focus {
+	color:#C8DBEE;
+	text-decoration:none;
+	font-weight:bold;
+	margin-top: 7px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: bolder;
+}
+a:hover {
+	color:#C8DBEE;
+	text-decoration:none;
+	background-color:#62B5C2;
+	font-weight:bold;
+	margin-top: 7px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: bolder;
+}
+a:active {
+	text-decoration:none;
+	color: #C8DBEE;
+	font-weight:bold;
+	margin-top: 7px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+div#header {
+	height: 80px;
+	width: 100%;
+
+	text-align: center;
+
+	background-color: #1F2833;
+	border: 0px solid #87BBBE;
+}
+
+	div#header h1 {
+		font-weight: bold;
+		color: #66FCF1;
+		font-size: 24px;
+		font-style: normal;
+		margin: 8px;
+		padding: 8px 16px 0px 16px;
+	}
+	div#header p {
+		padding: 0px 16px 16px 16px;
+	}
+
+div#navigation {
+	width: 178px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	padding: 16px 16px 16px 16px;
+
+	text-align: left;
+	font-size: 12px;
+
+	background-color: #1F2833;
+	border: 0px solid #225677;
+
+	float: left;
+}
+	div#navigation h2 {
+		color: #C8DBEE;
+		font-weight: bold;
+		padding: 0px;
+		margin: 0px;
+		/*font-size: 16px; */
+	}
+
+div#info {
+	width: 198px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	padding: 16px 16px 16px 16px;
+
+	background-color: #1F2833;
+	border: 1px dashed #45A29E;
+
+	font-size: 11px;
+
+	float: right;
+}
+hr {
+	border: 1px dashed #45A29E;
+	width: 90%
+}
+
+div#content {
+	margin-bottom: 16px;
+	padding: 16px 246px 16px 226px;
+}
+span {
+	font-weight: bold;
+}
+
+div#footer {
+	height: 44px;
+	width: 100%;
+
+	text-align: center;
+
+	background-color: #1F2833;
+	border: 0px solid #000000;;
+
+	clear: both;
+}
+div#footer p {
+	padding: 3px 16px 16px 16px;
+	font-size: 10px;
+	font-style: italic;
+}
+
+span.currentLink {
+	color:#62B5C2;
+	text-decoration:none;
+	font-weight:bold;
+	margin-top: 7px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: bolder;
+}
