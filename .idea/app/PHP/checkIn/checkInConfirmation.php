@@ -33,21 +33,35 @@
 <div id="content">
     <h2>CheckIn</h2>
     <br />
-    DB INSERT STATEMENT <br />
-    INSERT INTO tbl_checkIn (svnr, roomNo, dateFrom, dateTo, openPayments, payments, roomKeys, rommKeysReturned, checkOut) <br />
-    VALUES (
-    <?php echo $_GET['svnr']; ?>,
-    <?php echo $_GET['roomNo']; ?>,
-    <?php echo $_GET['dateFrom']; ?>,
-    <?php echo $_GET['dateTo']; ?>,
-    <?php echo $_GET['openPayments']; ?>,
-    0,
-    <?php echo $_GET['roomKeys']; ?>,
-    0,
-    false
-    ); <br />
-    <br />
-    CheckIn DONE!
+    <?php
+    try{
+        $guestsvnr = $_GET['svnr'];
+        $roomnumber = $_GET['roomNo'];
+        $arrivaldate = $_GET['dateFrom'];
+        $checkoutdate = $_GET['dateTo'];
+        $openpositions = $_GET['openPayments'];
+        $payments = 0.0;
+        $distributedkeys = $_GET['roomKeys'];
+        $returnedkeys = 0.0;
+        $checkedout = 0;
+        $connection = new PDO(
+            'mysql:host=localhost;dbname=hotelfrontdesk',
+            'hoteladmin',
+            'fABtYll48NiRt8Jb'
+        );
+        $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $sql = "INSERT INTO stay 
+                (guestsvnr, roomnumber, arrivaldate, checkoutdate, openpositions, 
+                payments, distributedkeys, returnedkeys, checkedout) 
+                VALUES (\"$guestsvnr\", \"$roomnumber\", \"$arrivaldate\", \"$checkoutdate\", \"$openpositions\",
+                \"$payments\", \"$distributedkeys\", \"$returnedkeys\", \"$checkedout\")";
+        // echo $sql;
+        $connection->exec($sql);
+        echo("Anfrage erfolgreich ausgeführte! CheckIn abgeschlossen!");
+    } catch (PDOException $ex) {
+        echo("Es gab einen Fahler bei der Bearbeitung: ".$ex);
+    }
+    ?>
 </div>
 <div id="footer">
     <p>

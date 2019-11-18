@@ -32,21 +32,54 @@
 	</div>
 	<div id="content">
     <h2>Registrierung</h2>
+        <a href="../guestRegistration/showRegistrations.php">Alle Gastregistrierungen anzeigen</a>
     <p><i>
   Bitte geben Sie die folgenden Daten ein:
     </i></p>
     <!-- TODO Pflichtfelder, php-Verarbeitung, css-Styling -->
     <form name="eingabe" action="guestRegister.php" method="get">
-    Sozialversicherungsnummer: <input type="text" name="svnr"><br />
-    Vorname: <input type="text" name="firstname"><br />
-    Familienname: <input type="text" name="lastname"><br />
-    Geburtsdatum: <input type="date" name="birthdate"><br />
-    Adresse: <input type="text" name="address"><br />
-    Postleitzahl: <input type="text" name="postalcode"><br />
-    Stadt: <input type="text" name="city"><br />
-    Land: <input type="text" name="country"><br />
-    Telefonnummer: <input type="text" name="telephone"><br />
-    E-Mail-Adresse: <input type="email" name="emailadress"><br />
+        <table style="width:45%,">
+            <tr>
+                <td>Sozialversicherungsnummer: </td>
+                <td><input type="text" name="svnr"></td>
+            </tr>
+            <tr>
+                <td>Vorname: </td>
+                <td><input type="text" name="firstname"></td>
+            </tr>
+            <tr>
+                <td>Familienname: </td>
+                <td><input type="text" name="lastname"></td>
+            </tr>
+            <tr>
+                <td>Geburtsdatum: </td>
+                <td><input type="date" name="birthdate"></td>
+            </tr>
+            <tr>
+                <td>Adresse: </td>
+                <td><input type="text" name="address"></td>
+            </tr>
+            <tr>
+                <td>Postleitzahl: </td>
+                <td><input type="text" name="postalcode"></td>
+            </tr>
+            <tr>
+                <td>Stadt: </td>
+                <td><input type="text" name="city"></td>
+            </tr>
+            <tr>
+                <td>Land: </td>
+                <td><input type="text" name="country"></td>
+            </tr>
+            <tr>
+                <td>Telefonnummer: </td>
+                <td><input type="text" name="telephone"></td>
+            </tr>
+            <tr>
+                <td>E-Mail-Adresse: </td>
+                <td><input type="email" name="emailaddress"></td>
+            </tr>
+        </table>
     <br />
     <input type="submit" value="absenden" />
 </form>

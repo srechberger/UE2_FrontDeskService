@@ -32,6 +32,7 @@
 </div>
 <div id="content">
     <h2>CheckIn</h2>
+    <a href="../checkIn/showCheckIns.php">Alle CheckIns anzeigen</a>
     <p><i>
             Bitte geben Sie die folgenden Daten ein:
         </i></p>
