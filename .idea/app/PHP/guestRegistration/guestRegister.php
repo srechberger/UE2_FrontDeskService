@@ -59,7 +59,7 @@
                 \"$postalcode\", \"$city\", \"$country\", \"$telephone\", \"$emailaddress\")";
     // echo $sql;
     $connection->exec($sql);
-    echo("Anfrage erfolgreich ausgeführte! Registrierung abgeschlossen!");
+    echo("Anfrage erfolgreich ausgeführt! Registrierung abgeschlossen!");
   } catch (PDOException $ex) {
     echo("Es gab einen Fahler bei der Bearbeitung: ".$ex);
   }
