@@ -31,11 +31,46 @@
     </p>
 </div>
 <div id="content">
-    <h2>Support</h2>
-    <?php
-    /* TODO */
-    echo 'here is work to be done';
-    ?>
+    <h2>Support-Tickets erstellen</h2>
+    <a href="../guestSupport/showSupportTickets.php">Alle Support-Tickets anzeigen</a>
+    <form name="eingabe" action="guestSupportConfirmation.php" method="get">
+        <table style="width:45%,">
+            <tr>
+                <td>Ticket-ID: </td>
+                <td><input type="text" name="issueid"></td>
+            </tr>
+            <tr>
+                <td>Status: </td>
+                <td><input type="text" name="status"></td>
+            </tr>
+            <tr>
+                <td>Kategorie: </td>
+                <td><input type="text" name="category"></td>
+            </tr>
+            <tr>
+                <td>Ersteller: </td>
+                <td><input type="text" name="creator"></td>
+            </tr>
+            <tr>
+                <td>Gast: </td>
+                <td><input type="text" name="guest"></td>
+            </tr>
+            <tr>
+                <td>SVNR: </td>
+                <td><input type="text" name="svnr"></td>
+            </tr>
+            <tr>
+                <td>Verantwortlicher Mitarbeiter: </td>
+                <td><input type="text" name="responsible"></td>
+            </tr>
+            <tr>
+                <td>Beschreibung des Anliegens: </td>
+                <td><input type="text" name="issueDescription"></td>
+            </tr>
+        </table>
+        <br />
+        <input type="submit" value="absenden" />
+    </form>
 </div>
 <div id="footer">
     <p>

@@ -15,8 +15,8 @@
     <h2>Navigation</h2>
     <p><a href="../hotelApp.php">&gt; Home</a></p>
     <p><a href="../guestRegistration/guestRegistration.php">&gt; Registrierung</a></p>
-    <p><span class="currentLink">&gt;&gt CheckIn</span></p>
-    <p><a href="../guestSupport/guestSupport.php">&gt; Support</a></p>
+    <p><span class="currentLink">> CheckIn</span></p>
+    <p><a href="../guestSupport/guestSupport.php">&gt;&gt Support</a></p>
     <p><a href="../payment/payment.php">&gt; Bezahlung</a></p>
     <p><a href="../checkOut/checkOut.php">&gt; CheckOut</a></p>
     <p><a href="../TEST/test.php">TEST</a></p>
@@ -31,33 +31,29 @@
     </p>
 </div>
 <div id="content">
-    <h2>CheckIn</h2>
+    <h2>Support-Ticket-Änderung</h2>
     <br />
     <?php
     try{
-        $guestsvnr = $_GET['svnr'];
-        $roomnumber = $_GET['roomNo'];
-        $arrivaldate = $_GET['dateFrom'];
-        $checkoutdate = $_GET['dateTo'];
-        $openpositions = $_GET['openPayments'];
-        $payments = 0.0;
-        $distributedkeys = $_GET['roomKeys'];
-        $returnedkeys = 0.0;
-        $checkedout = 0;
+        $issueID = $_GET['issueID'];
+        $issueStatus = $_GET['issueStatus'];
+        $issueCategory = $_GET['issueCategory'];
+        $responsibleEmployee = $_GET['responsibleEmployee'];
+
         $connection = new PDO(
             'mysql:host=localhost;dbname=hotelfrontdesk',
             'hoteladmin',
             'fABtYll48NiRt8Jb'
         );
         $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        $sql = "INSERT INTO stay 
-                (guestsvnr, roomnumber, arrivaldate, checkoutdate, openpositions, 
-                payments, distributedkeys, returnedkeys, checkedout) 
-                VALUES (\"$guestsvnr\", \"$roomnumber\", \"$arrivaldate\", \"$checkoutdate\", \"$openpositions\",
-                \"$payments\", \"$distributedkeys\", \"$returnedkeys\", \"$checkedout\")";
+        $sql = "UPDATE issue SET 
+                issueStatus = \"$issueStatus\", 
+                issueCategory = \"$issueCategory\", 
+                responsibleEmployee = \"$responsibleEmployee\" 
+                WHERE issueID = $issueID";
         // echo $sql;
         $connection->exec($sql);
-        echo("Anfrage erfolgreich ausgeführt! CheckIn abgeschlossen!");
+        echo("Anfrage erfolgreich ausgeführt! Ticket wurde geändert!");
     } catch (PDOException $ex) {
         echo("Es gab einen Fahler bei der Bearbeitung: ".$ex);
     }
