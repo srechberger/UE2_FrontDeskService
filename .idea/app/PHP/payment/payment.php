@@ -18,8 +18,8 @@
     <p><a href="../checkIn/checkIn.php">&gt; CheckIn</a></p>
     <p><a href="../guestSupport/guestSupport.php">&gt; Support</a></p>
     <p><span class="currentLink">&gt;&gt Payment</span></p>
+    <p><a href="../returnKeys/returnKeys.php">&gt; Key-Rückgabe</a></p>
     <p><a href="../checkOut/checkOut.php">&gt; CheckOut</a></p>
-    <p><a href="../TEST/test.php">TEST</a></p>
     <p>
         Über diese Menüpunkte können die diversen PHP-Skripte angesteuert werden.</p>
 </div>
@@ -32,14 +32,29 @@
 </div>
 <div id="content">
     <h2>Payment</h2>
-    <?php
-    /* TODO */
-    echo 'here is work to be done';
-    ?>
+    <p><i>
+            Bitte geben Sie die folgenden Daten ein:
+        </i></p>
+    <!-- TODO Pflichtfelder, php-Verarbeitung, css-Styling -->
+    <form name="eingabe" action="paymentConfirmation.php" method="get">
+        <table style="width:45%">
+            <tr>
+                <td>Sozialversicherungsnummer: </td>
+                <td><input type="text" name="svnr"></td>
+            </tr>
+            <tr>
+                <td>Zahlungseingang: </td>
+                <td><input type="text" name="payment"></td>
+            </tr>
+        </table>
+        <br />
+        <input type="submit" value="absenden" />
+    </form>
 </div>
 <div id="footer">
     <p>
-        KV Service Engineering, ...Namen..., WS 19/20, erstellt 2019
+        KV Service Engineering WS 19/20 | Stefan Rechberger, Marie Heng, Carina Hofstadler, Samuel Jaburek, Thomas Jost
+        | erstellt 2019
     </p>
 </div>
 </body>

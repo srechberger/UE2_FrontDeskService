@@ -14,12 +14,12 @@
 <div id="navigation">
     <h2>Navigation</h2>
     <p><a href="../hotelApp.php">&gt; Home</a></p>
-    <p><a href="../guestRegistration/guestRegistration.php">> Registrierung</a></p>
-    <p><span class="currentLink">&gt; CheckIn</span></p>
-    <p><a href="../guestSupport/guestSupport.php">&gt;&gt Support</a></p>
-    <p><a href="../payment/payment.php">&gt; Bezahlung</a></p>
+    <p><a href="../guestRegistration/guestRegistration.php">&gt; Registrierung</a></p>
+    <p><a href="../checkIn/checkIn.php">&gt; CheckIn</a></p>
+    <p><span class="currentLink">&gt;&gt Support</span></p>
+    <p><a href="../payment/payment.php">&gt; Payment</a></p>
+    <p><a href="../returnKeys/returnKeys.php">&gt; Key-Rückgabe</a></p>
     <p><a href="../checkOut/checkOut.php">&gt; CheckOut</a></p>
-    <p><a href="../TEST/test.php">TEST</a></p>
     <p>
         Über diese Menüpunkte können die diversen PHP-Skripte angesteuert werden.</p>
 </div>
@@ -86,7 +86,8 @@
 </div>
 <div id="footer">
     <p>
-        KV Service Engineering, ...Namen..., WS 19/20, erstellt 2019
+        KV Service Engineering WS 19/20 | Stefan Rechberger, Marie Heng, Carina Hofstadler, Samuel Jaburek, Thomas Jost
+        | erstellt 2019
     </p>
 </div>
 </body>

@@ -17,9 +17,9 @@
     <p><a href="../guestRegistration/guestRegistration.php">&gt; Registrierung</a></p>
     <p><span class="currentLink">&gt;&gt CheckIn</span></p>
     <p><a href="../guestSupport/guestSupport.php">&gt; Support</a></p>
-    <p><a href="../payment/payment.php">&gt; Bezahlung</a></p>
+    <p><a href="../payment/payment.php">&gt; Payment</a></p>
+    <p><a href="../returnKeys/returnKeys.php">&gt; Key-Rückgabe</a></p>
     <p><a href="../checkOut/checkOut.php">&gt; CheckOut</a></p>
-    <p><a href="../TEST/test.php">TEST</a></p>
     <p>
         Über diese Menüpunkte können die diversen PHP-Skripte angesteuert werden.</p>
 </div>
@@ -50,7 +50,7 @@
             <th>Zahlungen</th>
             <th>Ausgegebene Zimmerschlüssel</th>
             <th>Zurückgegebene Zimmerschlüssel</th>
-            <th>Ausgechecked?</th>
+            <th>Aktiv</th>
         </tr>
         <?php
         try{
@@ -62,6 +62,11 @@
             $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $sql = "SELECT * FROM stay";
             foreach($connection->query($sql) as $row) {
+                if($row['checkedout']=1) {
+                    $checked = 'Nein';
+                } else {
+                    $checked = 'Ja';
+                }
                 echo "<tr>";
                 echo(
                     "<td>" . $row['guestsvnr']. "</td>" .
@@ -72,12 +77,12 @@
                     "<td>" . $row['payments']. "</td>" .
                     "<td>" . $row['distributedkeys']. "</td>" .
                     "<td>" . $row['returnedkeys']. "</td>" .
-                    "<td>" . $row['checkedout']. "</td>"
+                    "<td>" . $checked. "</td>"
                 );
                 echo ("</tr>");
             }
         } catch (PDOException $ex) {
-            echo("Es gab einen Fahler bei der Bearbeitung: ".$ex);
+            echo("Es gab einen Fehler bei der Bearbeitung: ".$ex);
         }
         ?>
     </table>
@@ -85,7 +90,8 @@
 </div>
 <div id="footer">
     <p>
-        KV Service Engineering, ...Namen..., WS 19/20, erstellt 2019
+        KV Service Engineering WS 19/20 | Stefan Rechberger, Marie Heng, Carina Hofstadler, Samuel Jaburek, Thomas Jost
+        | erstellt 2019
     </p>
 </div>
 </body>

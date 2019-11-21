@@ -18,8 +18,8 @@
         <p><a href="../PHP/checkIn/checkIn.php">&gt; CheckIn</a></p>
         <p><a href="../PHP/guestSupport/guestSupport.php">&gt; Support</a></p>
         <p><a href="../PHP/payment/payment.php">&gt; Bezahlung</a></p>
+        <p><a href="../PHP/returnKeys/returnKeys.php">&gt; Key-Rückgabe</a></p>
         <p><a href="../PHP/checkOut/checkOut.php">&gt; CheckOut</a></p>
-		<p><a href="../PHP/TEST/test.php">TEST</a></p>
 		<p>
 	Über diese Menüpunkte können die diversen PHP-Skripte angesteuert werden.</p>
 	</div>
@@ -38,7 +38,8 @@
 	</div>
 	<div id="footer">
 		<p>
-	KV Service Engineering, ...Namen..., WS 19/20, erstellt 2019
+	KV Service Engineering WS 19/20 | Stefan Rechberger, Marie Heng, Carina Hofstadler, Samuel Jaburek, Thomas Jost
+            | erstellt 2019
 		</p>
 	</div>
 </body>

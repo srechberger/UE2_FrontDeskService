@@ -16,9 +16,9 @@
     <p><a href="../hotelApp.php">&gt; Home</a></p>
     <p><a href="../guestRegistration/guestRegistration.php">&gt; Registrierung</a></p>
     <p><a href="../checkIn/checkIn.php">&gt; CheckIn</a></p>
-    <p><span class="currentLink">&gt;&gt Support</span></p>
+    <p><a href="../guestSupport/guestSupport.php">&gt; Support</a></p>
     <p><a href="../payment/payment.php">&gt; Payment</a></p>
-    <p><a href="../returnKeys/returnKeys.php">&gt; Key-Rückgabe</a></p>
+    <p><span class="currentLink">&gt;&gt Key-Rückgabe</span></p>
     <p><a href="../checkOut/checkOut.php">&gt; CheckOut</a></p>
     <p>
         Über diese Menüpunkte können die diversen PHP-Skripte angesteuert werden.</p>
@@ -31,33 +31,21 @@
     </p>
 </div>
 <div id="content">
-    <h2>Support-Ticket-Änderung</h2>
-    <br />
-    <?php
-    try{
-        $issueID = $_GET['issueID'];
-        $issueStatus = $_GET['issueStatus'];
-        $issueCategory = $_GET['issueCategory'];
-        $responsibleEmployee = $_GET['responsibleEmployee'];
-
-        $connection = new PDO(
-            'mysql:host=localhost;dbname=hotelfrontdesk',
-            'hoteladmin',
-            'fABtYll48NiRt8Jb'
-        );
-        $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        $sql = "UPDATE issue SET 
-                issueStatus = \"$issueStatus\", 
-                issueCategory = \"$issueCategory\", 
-                responsibleEmployee = \"$responsibleEmployee\" 
-                WHERE issueID = $issueID";
-        // echo $sql;
-        $connection->exec($sql);
-        echo("Anfrage erfolgreich ausgeführt! Ticket wurde geändert!");
-    } catch (PDOException $ex) {
-        echo("Es gab einen Fahler bei der Bearbeitung: ".$ex);
-    }
-    ?>
+    <h2>Key-Rückgabe</h2>
+    <form name="eingabe" action="returnKeysConfirmation.php" method="get">
+        <table style="width:45%">
+            <tr>
+                <td>Sozialversicherungsnummer: </td>
+                <td><input type="text" name="svnr"></td>
+            </tr>
+            <tr>
+                <td>Anzahl der Schlüssel: </td>
+                <td><input type="text" name="keys"></td>
+            </tr>
+        </table>
+        <br />
+        <input type="submit" value="absenden" />
+    </form>
 </div>
 <div id="footer">
     <p>
