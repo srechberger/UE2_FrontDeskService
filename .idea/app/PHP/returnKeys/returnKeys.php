@@ -40,7 +40,7 @@
             </tr>
             <tr>
                 <td>Anzahl der Schlüssel: </td>
-                <td><input type="text" name="keys"></td>
+                <td><input type="number" name="keys"></td>
             </tr>
         </table>
         <br />

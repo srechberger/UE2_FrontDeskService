@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e573d054-9cdb-478d-9596-36830111e50a" name="Default Changelist" comment="">
+    <list default="true" id="e573d054-9cdb-478d-9596-36830111e50a" name="Default Changelist" comment="Finished Work">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/app/PHP/checkIn/checkIn.php" afterPath="$PROJECT_DIR$/.idea/app/PHP/checkIn/checkIn.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/app/PHP/checkIn/checkInConfirmation.php" afterPath="$PROJECT_DIR$/.idea/app/PHP/checkIn/checkInConfirmation.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/app/PHP/checkIn/showCheckIns.php" afterPath="$PROJECT_DIR$/.idea/app/PHP/checkIn/showCheckIns.php" />
@@ -9,14 +9,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/app/PHP/checkOut/checkOutConfirmation.php" afterPath="$PROJECT_DIR$/.idea/app/PHP/checkOut/checkOutConfirmation.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/app/PHP/guestRegistration/guestRegister.php" afterPath="$PROJECT_DIR$/.idea/app/PHP/guestRegistration/guestRegister.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/app/PHP/guestRegistration/guestRegistration.php" afterPath="$PROJECT_DIR$/.idea/app/PHP/guestRegistration/guestRegistration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/app/PHP/guestRegistration/showRegistrations.php" afterPath="$PROJECT_DIR$/.idea/app/PHP/guestRegistration/showRegistrations.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/app/PHP/guestSupport/guestSupport.php" afterPath="$PROJECT_DIR$/.idea/app/PHP/guestSupport/guestSupport.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/app/PHP/guestSupport/guestSupportConfirmation.php" afterPath="$PROJECT_DIR$/.idea/app/PHP/guestSupport/guestSupportConfirmation.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/app/PHP/guestSupport/showSupportTickets.php" afterPath="$PROJECT_DIR$/.idea/app/PHP/guestSupport/showSupportTickets.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/app/PHP/guestSupport/ticketChanged.php" afterPath="$PROJECT_DIR$/.idea/app/PHP/guestSupport/ticketChanged.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/app/PHP/hotelApp.php" afterPath="$PROJECT_DIR$/.idea/app/PHP/hotelApp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/app/PHP/payment/payment.php" afterPath="$PROJECT_DIR$/.idea/app/PHP/payment/payment.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/app/PHP/payment/paymentConfirmation.php" afterPath="$PROJECT_DIR$/.idea/app/PHP/payment/paymentConfirmation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/app/PHP/returnKeys/returnKeys.php" afterPath="$PROJECT_DIR$/.idea/app/PHP/returnKeys/returnKeys.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/app/PHP/returnKeys/returnKeysConfirmation.php" afterPath="$PROJECT_DIR$/.idea/app/PHP/returnKeys/returnKeysConfirmation.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +44,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -72,21 +71,21 @@
         <option value="$PROJECT_DIR$/.idea/settings.css" />
         <option value="$PROJECT_DIR$/.idea/app/PHP/stays/showRegistrations.php" />
         <option value="$PROJECT_DIR$/.idea/app/PHP/hotelApp.php" />
-        <option value="$PROJECT_DIR$/.idea/app/PHP/checkIn/checkInConfirmation.php" />
-        <option value="$PROJECT_DIR$/.idea/app/PHP/checkIn/checkIn.php" />
-        <option value="$PROJECT_DIR$/.idea/app/PHP/checkOut/checkOutConfirmation.php" />
         <option value="$PROJECT_DIR$/.idea/app/PHP/guestRegistration/showRegistrations.php" />
-        <option value="$PROJECT_DIR$/.idea/app/PHP/guestRegistration/guestRegistration.php" />
-        <option value="$PROJECT_DIR$/.idea/app/PHP/guestRegistration/guestRegister.php" />
-        <option value="$PROJECT_DIR$/.idea/app/PHP/guestSupport/guestSupport.php" />
+        <option value="$PROJECT_DIR$/.idea/app/PHP/payment/payment.php" />
         <option value="$PROJECT_DIR$/.idea/app/PHP/guestSupport/guestSupportConfirmation.php" />
+        <option value="$PROJECT_DIR$/.idea/app/PHP/checkOut/checkOut.php" />
         <option value="$PROJECT_DIR$/.idea/app/PHP/guestSupport/showSupportTickets.php" />
         <option value="$PROJECT_DIR$/.idea/app/PHP/guestSupport/ticketChanged.php" />
-        <option value="$PROJECT_DIR$/.idea/app/PHP/payment/payment.php" />
+        <option value="$PROJECT_DIR$/.idea/app/PHP/checkIn/checkIn.php" />
         <option value="$PROJECT_DIR$/.idea/app/PHP/returnKeys/returnKeys.php" />
+        <option value="$PROJECT_DIR$/.idea/app/PHP/guestSupport/guestSupport.php" />
+        <option value="$PROJECT_DIR$/.idea/app/PHP/checkIn/checkInConfirmation.php" />
+        <option value="$PROJECT_DIR$/.idea/app/PHP/checkOut/checkOutConfirmation.php" />
+        <option value="$PROJECT_DIR$/.idea/app/PHP/guestRegistration/guestRegister.php" />
         <option value="$PROJECT_DIR$/.idea/app/PHP/payment/paymentConfirmation.php" />
         <option value="$PROJECT_DIR$/.idea/app/PHP/returnKeys/returnKeysConfirmation.php" />
-        <option value="$PROJECT_DIR$/.idea/app/PHP/checkOut/checkOut.php" />
+        <option value="$PROJECT_DIR$/.idea/app/PHP/guestRegistration/guestRegistration.php" />
         <option value="$PROJECT_DIR$/.idea/app/PHP/checkIn/showCheckIns.php" />
       </list>
     </option>
@@ -125,7 +124,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -359,7 +358,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -826,7 +825,8 @@
       <workItem from="1574064721808" duration="8236000" />
       <workItem from="1574169068437" duration="3362000" />
       <workItem from="1574337370428" duration="685000" />
-      <workItem from="1574340443481" duration="18436000" />
+      <workItem from="1574340443481" duration="18928000" />
+      <workItem from="1574369883420" duration="11149000" />
     </task>
     <task id="LOCAL-00001" summary="CheckIn und Registrierung implementiert.">
       <created>1574077745780</created>
@@ -835,11 +835,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574077745780</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finished Work">
+      <created>1574360929229</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574360929229</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41848000" />
+    <option name="totallyTimeSpent" value="53489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -859,7 +866,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25349087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25725028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -883,10 +890,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CheckIn und Registrierung implementiert." />
-    <option name="LAST_COMMIT_MESSAGE" value="CheckIn und Registrierung implementiert." />
+    <MESSAGE value="Finished Work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Work" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -915,7 +925,7 @@
         <state relative-caret-position="1281">
           <caret line="61" column="40" lean-forward="false" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
           <folding>
-            <marker date="1574356297749" expanded="true" signature="1683:2024" ph="INSERT INTO guest... " />
+            <marker date="1574380636542" expanded="true" signature="1895:2236" ph="INSERT INTO guest... " />
           </folding>
         </state>
       </provider>
@@ -932,7 +942,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1911">
           <caret line="94" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1574356297778" expanded="true" signature="2089:2108" ph="SELECT * FRO... guest" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -948,7 +960,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1092">
           <caret line="52" column="40" lean-forward="false" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
-          <folding />
+          <folding>
+            <marker date="1574379969567" expanded="true" signature="1725:1941" ph="UPDATE issue... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -956,7 +970,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
           <caret line="60" column="32" lean-forward="true" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
-          <folding />
+          <folding>
+            <marker date="1574377018495" expanded="true" signature="1793:1834" ph="SELECT MAX(i... issue" />
+            <marker date="1574377018495" expanded="true" signature="1965:1966" ph="INSERT INTO issue... " />
+            <marker date="1574377018495" expanded="true" signature="2101:2440" ph="INSERT INTO issue... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -964,7 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="9" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="13" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -973,7 +990,7 @@
         <state relative-caret-position="1239">
           <caret line="59" column="44" lean-forward="false" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
           <folding>
-            <marker date="1574356297675" expanded="true" signature="1753:2126" ph="INSERT INTO stay... " />
+            <marker date="1574380436481" expanded="true" signature="1916:2289" ph="INSERT INTO stay... " />
           </folding>
         </state>
       </provider>
@@ -983,11 +1000,12 @@
         <state relative-caret-position="1407">
           <caret line="70" column="57" lean-forward="true" selection-start-line="70" selection-start-column="57" selection-end-line="70" selection-end-column="57" />
           <folding>
-            <marker date="1574356297663" expanded="true" signature="2086:2105" ph="SELECT * FRO... issue" />
-            <marker date="1574356297663" expanded="true" signature="2422:2433" ph="..." />
-            <marker date="1574356297663" expanded="true" signature="2559:2570" ph="..." />
-            <marker date="1574356297663" expanded="true" signature="2700:2712" ph="..." />
-            <marker date="1574356297663" expanded="true" signature="3031:3043" ph="..." />
+            <marker date="1574379694029" expanded="true" signature="2086:2105" ph="SELECT * FRO... issue" />
+            <marker date="1574379694029" expanded="true" signature="2407:2419" ph="..." />
+            <marker date="1574379694029" expanded="true" signature="2455:2520" ph="..." />
+            <marker date="1574379694029" expanded="true" signature="2455:3062" ph="..." />
+            <marker date="1574379694029" expanded="true" signature="2516:2520" ph="..." />
+            <marker date="1574379694029" expanded="true" signature="4387:4399" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1018,72 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="9" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="13" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/app/PHP/checkIn/checkInConfirmation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="68" column="23" lean-forward="false" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
-          <folding>
-            <marker date="1574356297675" expanded="true" signature="1753:2126" ph="INSERT INTO stay... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/app/PHP/guestRegistration/showRegistrations.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="90" column="23" lean-forward="false" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
-          <folding>
-            <marker date="1574356297778" expanded="true" signature="2089:2108" ph="SELECT * FRO... guest" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/app/PHP/guestSupport/showSupportTickets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="89" column="23" lean-forward="false" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
-          <folding>
-            <marker date="1574356297663" expanded="true" signature="2086:2105" ph="SELECT * FRO... issue" />
-            <marker date="1574356297663" expanded="true" signature="2422:2433" ph="..." />
-            <marker date="1574356297663" expanded="true" signature="2559:2570" ph="..." />
-            <marker date="1574356297663" expanded="true" signature="2700:2712" ph="..." />
-            <marker date="1574356297663" expanded="true" signature="3031:3043" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/app/PHP/guestSupport/ticketChanged.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="64" column="23" lean-forward="false" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-          <folding>
-            <marker date="1574356297788" expanded="true" signature="1621:1837" ph="UPDATE issue... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/app/PHP/checkIn/checkIn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="34" column="68" lean-forward="true" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/app/PHP/checkOut/checkOutConfirmation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-          <folding>
-            <marker date="1574356297720" expanded="true" signature="1434:1474" ph="SELECT * FRO... stay" />
-            <marker date="1574356297720" expanded="true" signature="1434:1475" ph="SELECT * FRO... stay" />
-            <marker date="1574356297720" expanded="true" signature="2106:2156" ph="UPDATE stay " />
-            <marker date="1574356297720" expanded="true" signature="2106:2157" ph="UPDATE stay " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1095,93 +1047,161 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/app/PHP/returnKeys/returnKeys.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/app/PHP/returnKeys/returnKeysConfirmation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="60" column="69" lean-forward="true" selection-start-line="60" selection-start-column="69" selection-end-line="60" selection-end-column="69" />
-          <folding>
-            <marker date="1574358186688" expanded="true" signature="1439:1511" ph="SELECT * FRO... stay" />
-            <marker date="1574358186688" expanded="true" signature="1878:1979" ph="UPDATE stay " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/app/PHP/checkOut/checkOut.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1659">
-          <caret line="82" column="12" lean-forward="false" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+        <state relative-caret-position="410">
+          <caret line="73" column="127" lean-forward="false" selection-start-line="73" selection-start-column="127" selection-end-line="73" selection-end-column="127" />
           <folding>
-            <marker date="1574359573005" expanded="true" signature="2050:2068" ph="SELECT * FRO... stay" />
-            <marker date="1574359573005" expanded="true" signature="2050:2092" ph="SELECT * FRO... stay" />
+            <marker date="1574379281200" expanded="true" signature="2050:2068" ph="SELECT * FRO... stay" />
+            <marker date="1574379281200" expanded="true" signature="2050:2092" ph="SELECT * FRO... stay" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/app/PHP/guestRegistration/guestRegister.php">
+    <entry file="file://$PROJECT_DIR$/.idea/app/PHP/guestSupport/ticketChanged.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="829">
-          <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+        <state relative-caret-position="630">
+          <caret line="60" column="29" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
           <folding>
-            <marker date="1574356297749" expanded="true" signature="1683:2024" ph="INSERT INTO guest... " />
+            <marker date="1574379969567" expanded="true" signature="1725:1941" ph="UPDATE issue... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/app/PHP/guestRegistration/guestRegistration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="745">
-          <caret line="89" column="27" lean-forward="false" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/app/PHP/guestSupport/guestSupport.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1186">
-          <caret line="77" column="23" lean-forward="false" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+        <state relative-caret-position="1407">
+          <caret line="67" column="39" lean-forward="false" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/app/PHP/returnKeys/returnKeys.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="42" column="39" lean-forward="false" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/app/PHP/checkIn/checkIn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="51" column="36" lean-forward="false" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/app/PHP/guestSupport/guestSupportConfirmation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="68" column="23" lean-forward="false" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+        <state relative-caret-position="279">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="37" selection-end-column="10" />
           <folding>
-            <marker date="1574356297729" expanded="true" signature="1766:2105" ph="INSERT INTO issue... " />
+            <marker date="1574377018495" expanded="true" signature="1793:1834" ph="SELECT MAX(i... issue" />
+            <marker date="1574377018495" expanded="true" signature="1965:1966" ph="INSERT INTO issue... " />
+            <marker date="1574377018495" expanded="true" signature="2101:2440" ph="INSERT INTO issue... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/app/PHP/checkIn/showCheckIns.php">
+    <entry file="file://$PROJECT_DIR$/.idea/app/PHP/guestSupport/showSupportTickets.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="67" column="34" lean-forward="false" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
+        <state relative-caret-position="266">
+          <caret line="66" column="84" lean-forward="false" selection-start-line="66" selection-start-column="84" selection-end-line="66" selection-end-column="84" />
           <folding>
-            <marker date="1574360557429" expanded="true" signature="2110:2128" ph="SELECT * FRO... stay" />
+            <marker date="1574379694029" expanded="true" signature="2086:2105" ph="SELECT * FRO... issue" />
+            <marker date="1574379694029" expanded="true" signature="2407:2419" ph="..." />
+            <marker date="1574379694029" expanded="true" signature="2455:2520" ph="..." />
+            <marker date="1574379694029" expanded="true" signature="2455:3062" ph="..." />
+            <marker date="1574379694029" expanded="true" signature="2516:2520" ph="..." />
+            <marker date="1574379694029" expanded="true" signature="4387:4399" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/app/PHP/checkIn/checkInConfirmation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="40" selection-end-column="10" />
+          <folding>
+            <marker date="1574380436481" expanded="true" signature="1916:2289" ph="INSERT INTO stay... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/app/PHP/checkOut/checkOutConfirmation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <marker date="1574380436493" expanded="true" signature="1528:1568" ph="SELECT * FRO... stay" />
+            <marker date="1574380436493" expanded="true" signature="1528:1569" ph="SELECT * FRO... stay" />
+            <marker date="1574380436493" expanded="true" signature="2200:2250" ph="UPDATE stay " />
+            <marker date="1574380436493" expanded="true" signature="2200:2251" ph="UPDATE stay " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/app/PHP/guestRegistration/guestRegister.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="38" column="55" lean-forward="false" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+          <folding>
+            <marker date="1574380636542" expanded="true" signature="1895:2236" ph="INSERT INTO guest... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/app/PHP/returnKeys/returnKeysConfirmation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="34" column="73" lean-forward="false" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
+          <folding>
+            <marker date="1574380636554" expanded="true" signature="1626:1698" ph="SELECT * FRO... stay" />
+            <marker date="1574380636554" expanded="true" signature="2065:2166" ph="UPDATE stay " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/app/PHP/payment/paymentConfirmation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="60" column="89" lean-forward="false" selection-start-line="60" selection-start-column="89" selection-end-line="60" selection-end-column="89" />
+        <state relative-caret-position="630">
+          <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
           <folding>
-            <marker date="1574358129436" expanded="true" signature="1441:1481" ph="SELECT * FRO... stay" />
-            <marker date="1574358129436" expanded="true" signature="1441:1482" ph="SELECT * FRO... stay" />
-            <marker date="1574358129436" expanded="true" signature="1441:1513" ph="SELECT * FRO... stay" />
-            <marker date="1574358129436" expanded="true" signature="1858:1919" ph="UPDATE stay " />
-            <marker date="1574358129436" expanded="true" signature="1858:1920" ph="UPDATE stay " />
-            <marker date="1574358129436" expanded="true" signature="1858:1951" ph="UPDATE stay " />
+            <marker date="1574380636566" expanded="true" signature="1616:1656" ph="SELECT * FRO... stay" />
+            <marker date="1574380636566" expanded="true" signature="1616:1657" ph="SELECT * FRO... stay" />
+            <marker date="1574380636566" expanded="true" signature="1616:1688" ph="SELECT * FRO... stay" />
+            <marker date="1574380636566" expanded="true" signature="2033:2094" ph="UPDATE stay " />
+            <marker date="1574380636566" expanded="true" signature="2033:2095" ph="UPDATE stay " />
+            <marker date="1574380636566" expanded="true" signature="2033:2126" ph="UPDATE stay " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/app/PHP/guestRegistration/showRegistrations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1816">
+          <caret line="90" column="23" lean-forward="false" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
+          <folding>
+            <marker date="1574356297778" expanded="true" signature="2089:2108" ph="SELECT * FRO... guest" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/app/PHP/guestRegistration/guestRegistration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="63" column="39" lean-forward="false" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/app/PHP/checkIn/showCheckIns.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+          <folding>
+            <marker date="1574381000786" expanded="true" signature="2110:2128" ph="SELECT * FRO... stay" />
           </folding>
         </state>
       </provider>

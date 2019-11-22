@@ -32,7 +32,13 @@
 </div>
 <div id="content">
   <h2>Registrierung</h2>
-  <br />
+    <br />
+    <a href="../guestRegistration/guestRegistration.php">Neuen Gast anlegen</a>
+    <br />
+    <br />
+    <a href="../guestRegistration/showRegistrations.php">Registrierungs-Übersicht</a>
+    <br />
+    <br />
   <?php
   try{
     $svnr = $_GET['svnr'];

@@ -64,9 +64,36 @@
                 echo "<tr>";
                 echo "<form name=\"eingabe\" action=\"ticketChanged.php\" method=\"get\">";
                 echo(
-                    "<td><input type=\"text\" name=\"issueID\" value =\"" . $row['issueID'] . "\" readonly style=\"width: 50px\"></td>" .
-                    "<td><input type=\"text\" name=\"issueStatus\" value =\"" . $row['issueStatus'] . "\" style=\"width: 75px\"></td>" .
-                    "<td><input type=\"text\" name=\"issueCategory\" value =\"" . $row['issueCategory'] . "\" style=\"width: 100px\"></td>" .
+                    "<td><input type='text' name='issueID' value ='" . $row['issueID'] . "' style=\"width: 100px\"></td>" .
+                    "<td><select name='issueStatus' value=" . $row['issueStatus'] . ">" .
+                    "<option ");
+                        if($row['issueStatus'] == 'Offen'){echo("selected");}
+                        echo(">Offen</option>");
+                    echo ("<option ");
+                        if($row['issueStatus'] == 'In Arbeit'){echo("selected");}
+                        echo(">In Arbeit</option>");
+                    echo ("<option ");
+                        if($row['issueStatus'] == 'Erledigt'){echo("selected");}
+                        echo(">Erledigt</option>");
+                echo("</select></td>" .
+
+                    "<td><select name='issueCategory' value=" . $row['issueCategory'] . ">" .
+                    "<option ");
+                        if($row['issueCategory'] == 'Front-Desk'){echo("selected");}
+                        echo(">Front-Desk</option>");
+                    echo ("<option ");
+                        if($row['issueCategory'] == 'Restaurant'){echo("selected");}
+                        echo(">Restaurant</option>");
+                    echo ("<option ");
+                        if($row['issueCategory'] == 'Cleaning'){echo("selected");}
+                        echo(">Cleaning</option>");
+                    echo ("<option ");
+                        if($row['issueCategory'] == 'Maintenance'){echo("selected");}
+                         echo(">Maintenance</option>");
+                    echo ("<option ");
+                        if($row['issueCategory'] == 'Manager'){echo("selected");}
+                         echo(">Manager</option>");
+                echo("</select></td>" .
                     "<td>" . $row['issueCreator']. "</td>" .
                     "<td>" . $row['guestName']. "</td>" .
                     "<td>" . $row['guestsvnr']. "</td>" .

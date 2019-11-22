@@ -33,9 +33,11 @@
 <div id="content">
     <h2>Support-Ticket-Erstellung</h2>
     <br />
+    <a href="../guestSupport/showSupportTickets.php">Support-Ticket-Übersicht</a>
+    <br />
+    <br />
     <?php
     try{
-        $issueID = $_GET['issueid'];
         $issueStatus = $_GET['status'];
         $issueCategory = $_GET['category'];
         $issueCreator = $_GET['creator'];
@@ -49,7 +51,21 @@
             'hoteladmin',
             'fABtYll48NiRt8Jb'
         );
-        $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+        // GET current returned keys
+        $sql = "SELECT MAX(issueID) AS maximum FROM issue";
+
+        foreach ($connection->query($sql) as $row) {
+            // GET maximum
+            $value = $row['maximum'];
+        }
+
+        if($value == NULL) {
+            $issueID = 1;
+        } else {
+            $issueID = $value + 1;
+        }
+
         $sql = "INSERT INTO issue 
                 (issueID, issueStatus, issueCategory, issueCreator, guestName, 
                 guestsvnr, responsibleEmployee, request) 

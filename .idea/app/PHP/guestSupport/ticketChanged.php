@@ -33,6 +33,9 @@
 <div id="content">
     <h2>Support-Ticket-Änderung</h2>
     <br />
+    <a href="../guestSupport/showSupportTickets.php">Support-Ticket-Übersicht</a>
+    <br />
+    <br />
     <?php
     try{
         $issueID = $_GET['issueID'];
@@ -55,7 +58,7 @@
         $connection->exec($sql);
         echo("Anfrage erfolgreich ausgeführt! Ticket wurde geändert!");
     } catch (PDOException $ex) {
-        echo("Es gab einen Fahler bei der Bearbeitung: ".$ex);
+        echo("Es gab einen Fehler bei der Bearbeitung: ".$ex);
     }
     ?>
 </div>

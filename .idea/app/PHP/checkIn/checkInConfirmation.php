@@ -33,6 +33,12 @@
 <div id="content">
     <h2>CheckIn</h2>
     <br />
+    <a href="../checkin/showCheckIns.php">CheckIn-Übersicht</a>
+    <br />
+    <br />
+    <a href="../checkin/checkIn.php">Neuer CheckIn</a>
+    <br />
+    <br />
     <?php
     try{
         $guestsvnr = $_GET['svnr'];

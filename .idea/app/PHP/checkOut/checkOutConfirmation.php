@@ -32,7 +32,10 @@
 </div>
 <div id="content">
     <h2>CheckOut</h2>
-
+    <br />
+    <a href="../checkOut/checkOut.php">Aktive Aufenthalte</a>
+    <br />
+    <br />
 <?php
 try {
     $id = $_GET['id'];

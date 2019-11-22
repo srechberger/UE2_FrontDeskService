@@ -41,11 +41,11 @@
         <table style="width:45%">
             <tr>
                 <td>Sozialversicherungsnummer: </td>
-                <td><input type="text" name="svnr"></td>
+                <td><input type="number" name="svnr"></td>
             </tr>
             <tr>
                 <td>ZimmerNr: </td>
-                <td><input type="text" name="roomNo"></td>
+                <td><input type="number" name="roomNo"></td>
             </tr>
             <tr>
                 <td>Datum von: </td>

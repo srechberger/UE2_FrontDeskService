@@ -32,6 +32,12 @@
 </div>
 <div id="content">
     <h2>Payment</h2>
+    <a href="../payment/payment.php">Neue Zahlung durchführen</a>
+    <br />
+    <br />
+    <a href="../checkOut/checkOut.php">Check-Out durchführen</a>
+    <br />
+    <br />
     <?php
     try {
         $guestsvnr = $_GET['svnr'];

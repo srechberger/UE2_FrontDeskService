@@ -62,10 +62,10 @@
             $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $sql = "SELECT * FROM stay";
             foreach($connection->query($sql) as $row) {
-                if($row['checkedout']=1) {
-                    $checked = 'Nein';
+                if($row['checkedout']==1) {
+                    $active = 'Nein';
                 } else {
-                    $checked = 'Ja';
+                    $active = 'Ja';
                 }
                 echo "<tr>";
                 echo(
@@ -77,7 +77,7 @@
                     "<td>" . $row['payments']. "</td>" .
                     "<td>" . $row['distributedkeys']. "</td>" .
                     "<td>" . $row['returnedkeys']. "</td>" .
-                    "<td>" . $checked. "</td>"
+                    "<td>" . $active. "</td>"
                 );
                 echo ("</tr>");
             }

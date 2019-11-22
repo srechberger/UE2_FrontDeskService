@@ -41,7 +41,7 @@
         <table style="width:45%,">
             <tr>
                 <td>Sozialversicherungsnummer: </td>
-                <td><input type="text" name="svnr"></td>
+                <td><input type="number" name="svnr"></td>
             </tr>
             <tr>
                 <td>Vorname: </td>
@@ -61,7 +61,7 @@
             </tr>
             <tr>
                 <td>Postleitzahl: </td>
-                <td><input type="text" name="postalcode"></td>
+                <td><input type="number" name="postalcode"></td>
             </tr>
             <tr>
                 <td>Stadt: </td>
@@ -73,7 +73,7 @@
             </tr>
             <tr>
                 <td>Telefonnummer: </td>
-                <td><input type="text" name="telephone"></td>
+                <td><input type="number" name="telephone"></td>
             </tr>
             <tr>
                 <td>E-Mail-Adresse: </td>

@@ -36,16 +36,24 @@
     <form name="eingabe" action="guestSupportConfirmation.php" method="get">
         <table style="width:45%,">
             <tr>
-                <td>Ticket-ID: </td>
-                <td><input type="text" name="issueid"></td>
-            </tr>
-            <tr>
                 <td>Status: </td>
-                <td><input type="text" name="status"></td>
+                <td><select name="status">
+                    <option value="Offen">Offen</option>
+                    <option value="In Arbeit">In Arbeit</option>
+                    <option value="Erledigt">Erledigt</option>
+                </select>
+                </td>
             </tr>
             <tr>
                 <td>Kategorie: </td>
-                <td><input type="text" name="category"></td>
+                <td><select name="category">
+                        <option value="Front-Desk">Front-Desk</option>
+                        <option value="Restaurant">Restaurant</option>
+                        <option value="Cleaning">Cleaning</option>
+                        <option value="Maintenance">Maintenance</option>
+                        <option value="Manager">Manager</option>
+                    </select>
+                </td>
             </tr>
             <tr>
                 <td>Ersteller: </td>
@@ -57,7 +65,7 @@
             </tr>
             <tr>
                 <td>SVNR: </td>
-                <td><input type="text" name="svnr"></td>
+                <td><input type="number" name="svnr"></td>
             </tr>
             <tr>
                 <td>Verantwortlicher Mitarbeiter: </td>

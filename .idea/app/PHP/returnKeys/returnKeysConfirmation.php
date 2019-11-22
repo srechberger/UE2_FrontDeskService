@@ -32,6 +32,12 @@
 </div>
 <div id="content">
     <h2>Key-Rückgabe</h2>
+    <a href="../returnKeys/returnKeys.php">Weitere Schlüssel zurücknehmen</a>
+    <br />
+    <br />
+    <a href="../checkOut/checkOut.php">Check-Out durchführen</a>
+    <br />
+    <br />
     <?php
     try {
         $guestsvnr = $_GET['svnr'];
