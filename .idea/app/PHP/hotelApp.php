@@ -6,9 +6,9 @@
 </head>
 <body>
 	<div id="header">
-		<h1>Hotel Frontdesk - Registrierung</h1>
+		<h1>Hotel Frontdesk</h1>
 		<p>
-	Funktionalitäten zur Registrierung von Gästen
+	Funktionalitäten im Rahmen des Hotel Frontdesks
 		</p>
 	</div>
 	<div id="navigation">
