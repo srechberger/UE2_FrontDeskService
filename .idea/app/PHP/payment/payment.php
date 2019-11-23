@@ -35,16 +35,15 @@
     <p><i>
             Bitte geben Sie die folgenden Daten ein:
         </i></p>
-    <!-- TODO Pflichtfelder, php-Verarbeitung, css-Styling -->
     <form name="eingabe" action="paymentConfirmation.php" method="get">
         <table style="width:45%">
             <tr>
                 <td>Sozialversicherungsnummer: </td>
-                <td><input type="text" name="svnr"></td>
+                <td><input type="text" name="svnr" required></td>
             </tr>
             <tr>
                 <td>Zahlungseingang: </td>
-                <td><input type="text" name="payment"></td>
+                <td><input type="text" name="payment" required></td>
             </tr>
         </table>
         <br />

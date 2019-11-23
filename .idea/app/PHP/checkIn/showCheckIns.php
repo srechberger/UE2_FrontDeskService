@@ -36,7 +36,6 @@
     <p><i>
             Alle gespeicherten CheckIns:
         </i></p>
-    <!-- TODO Pflichtfelder, php-Verarbeitung, css-Styling -->
     <table style="width:45%;
            font-family: Verdana, Arial;
 	       font-size: 9px;

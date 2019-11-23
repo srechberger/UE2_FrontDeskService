@@ -36,48 +36,47 @@
     <p><i>
   Bitte geben Sie die folgenden Daten ein:
     </i></p>
-    <!-- TODO Pflichtfelder, php-Verarbeitung, css-Styling -->
     <form name="eingabe" action="guestRegister.php" method="get">
         <table style="width:45%,">
             <tr>
                 <td>Sozialversicherungsnummer: </td>
-                <td><input type="number" name="svnr"></td>
+                <td><input type="number" name="svnr" required></td>
             </tr>
             <tr>
                 <td>Vorname: </td>
-                <td><input type="text" name="firstname"></td>
+                <td><input type="text" name="firstname" required></td>
             </tr>
             <tr>
                 <td>Familienname: </td>
-                <td><input type="text" name="lastname"></td>
+                <td><input type="text" name="lastname" required></td>
             </tr>
             <tr>
                 <td>Geburtsdatum: </td>
-                <td><input type="date" name="birthdate"></td>
+                <td><input type="date" name="birthdate" required></td>
             </tr>
             <tr>
                 <td>Adresse: </td>
-                <td><input type="text" name="address"></td>
+                <td><input type="text" name="address" required></td>
             </tr>
             <tr>
                 <td>Postleitzahl: </td>
-                <td><input type="number" name="postalcode"></td>
+                <td><input type="number" name="postalcode" required></td>
             </tr>
             <tr>
                 <td>Stadt: </td>
-                <td><input type="text" name="city"></td>
+                <td><input type="text" name="city" required></td>
             </tr>
             <tr>
                 <td>Land: </td>
-                <td><input type="text" name="country"></td>
+                <td><input type="text" name="country" required></td>
             </tr>
             <tr>
                 <td>Telefonnummer: </td>
-                <td><input type="number" name="telephone"></td>
+                <td><input type="number" name="telephone" required></td>
             </tr>
             <tr>
                 <td>E-Mail-Adresse: </td>
-                <td><input type="email" name="emailaddress"></td>
+                <td><input type="email" name="emailaddress" required></td>
             </tr>
         </table>
     <br />

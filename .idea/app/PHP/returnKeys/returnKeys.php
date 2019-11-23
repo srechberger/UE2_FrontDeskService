@@ -36,11 +36,11 @@
         <table style="width:45%">
             <tr>
                 <td>Sozialversicherungsnummer: </td>
-                <td><input type="text" name="svnr"></td>
+                <td><input type="text" name="svnr" required></td>
             </tr>
             <tr>
                 <td>Anzahl der Schlüssel: </td>
-                <td><input type="number" name="keys"></td>
+                <td><input type="number" name="keys" required></td>
             </tr>
         </table>
         <br />

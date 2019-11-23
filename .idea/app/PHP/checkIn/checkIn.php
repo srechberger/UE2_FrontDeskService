@@ -36,32 +36,31 @@
     <p><i>
             Bitte geben Sie die folgenden Daten ein:
         </i></p>
-    <!-- TODO Pflichtfelder, php-Verarbeitung, css-Styling -->
     <form name="eingabe" action="checkInConfirmation.php" method="get">
         <table style="width:45%">
             <tr>
                 <td>Sozialversicherungsnummer: </td>
-                <td><input type="number" name="svnr"></td>
+                <td><input type="number" name="svnr" required></td>
             </tr>
             <tr>
                 <td>ZimmerNr: </td>
-                <td><input type="number" name="roomNo"></td>
+                <td><input type="number" name="roomNo" required></td>
             </tr>
             <tr>
                 <td>Datum von: </td>
-                <td><input type="date" name="dateFrom"></td>
+                <td><input type="date" name="dateFrom" required></td>
             </tr>
             <tr>
                 <td>Datum bis: </td>
-                <td><input type="date" name="dateTo"></td>
+                <td><input type="date" name="dateTo" required></td>
             </tr>
             <tr>
                 <td>Gesamtpreis: </td>
-                <td><input type="text" name="openPayments"></td>
+                <td><input type="text" name="openPayments" required></td>
             </tr>
             <tr>
                 <td>Anzahl Zimmerschlüssel: </td>
-                <td><input type="number" name="roomKeys" value="2"></td>
+                <td><input type="number" name="roomKeys" value="2" required></td>
             </tr>
         </table>
         <br />

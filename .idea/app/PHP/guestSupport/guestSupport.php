@@ -57,23 +57,23 @@
             </tr>
             <tr>
                 <td>Ersteller: </td>
-                <td><input type="text" name="creator"></td>
+                <td><input type="text" name="creator" required></td>
             </tr>
             <tr>
                 <td>Gast: </td>
-                <td><input type="text" name="guest"></td>
+                <td><input type="text" name="guest" required></td>
             </tr>
             <tr>
                 <td>SVNR: </td>
-                <td><input type="number" name="svnr"></td>
+                <td><input type="number" name="svnr" required></td>
             </tr>
             <tr>
                 <td>Verantwortlicher Mitarbeiter: </td>
-                <td><input type="text" name="responsible"></td>
+                <td><input type="text" name="responsible" required></td>
             </tr>
             <tr>
                 <td>Beschreibung des Anliegens: </td>
-                <td><input type="text" name="issueDescription"></td>
+                <td><input type="text" name="issueDescription" required></td>
             </tr>
         </table>
         <br />
