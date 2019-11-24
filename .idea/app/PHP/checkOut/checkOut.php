@@ -70,9 +70,8 @@
                     "<td>" . $row['payments']. "</td>" .
                     "<td>" . $row['distributedkeys']. "</td>" .
                     "<td>" . $row['returnedkeys']. "</td>" .
-                    "<td><a href=\HotelFrontDeskService/.idea/app/PHP/checkOut/checkOutConfirmation.php?id=".$row['guestsvnr'] .
-                    "><input type='button' value='Check-Out' id=" . $row['guestsvnr'] . "></a></td>"
-
+                    "<td><a href=\"../checkOut/checkOutConfirmation.php?id=".$row['guestsvnr'] .
+                    "\"><input type='button' value='Check-Out' id=" . $row['guestsvnr'] . "></a></td>"
                 );
                 echo ("</tr>");
             }
